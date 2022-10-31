@@ -25,6 +25,7 @@ pub fn App<G: Html>(cx: Scope) -> View<G> {
 
     let greet = move |_| {
         spawn_local_scoped(cx, async move {
+            // Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
             let new_msg =
                 invoke("greet", to_value(&GreetArgs { name: &name.get() }).unwrap()).await;
 
