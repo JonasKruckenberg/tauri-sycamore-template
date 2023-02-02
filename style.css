@@ -1,18 +1,5 @@
-.logo.yew:hover {
-  filter: drop-shadow(0 0 2em #20a88a);
-}
-.logo.sycamore {
-  color: #0000;
-  font-size: 3rem;
-  line-height: 1;
-  font-weight: 800;
-  -webkit-background-clip: text;
-  background-clip: text;
-  background-image: linear-gradient(to right,#fdba74, #f87171);
-  font-family: Inter,system-ui,sans-serif;
-}
 .logo.sycamore:hover {
-  filter: drop-shadow(0 0 2em #f87171);
+  filter: drop-shadow(0 0 2em #F8B94C);
 }
 
 :root {

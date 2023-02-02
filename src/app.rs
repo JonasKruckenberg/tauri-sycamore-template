@@ -42,9 +42,7 @@ pub fn App<G: Html>(cx: Scope) -> View<G> {
                     img(src="public/tauri.svg",class="logo tauri",alt="Tauri logo")
                 }
                 a(href="https://sycamore-rs.netlify.app",target="_blank") {
-                    span(class="logo sycamore") {
-                        "Sycamore"
-                    }
+                    img(src="public/sycamore.svg",class="logo sycamore",alt="Sycamore logo")
                 }
             }
             p {
